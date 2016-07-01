@@ -1,13 +1,22 @@
 /*
 Arduino Pro Mini 3.3V console port monitor for the Asus RT-AC68U router.
 
-This is a microcontroller running a program that monitors the console port of the Asus RT-AC68U router, to know when the router is ready to begin accepting Linux shell commands. For instance, we can automatically write a passphrase directly into the router's RAM, very early in the boot process, by copying a passphrase text file from the Arduino to the router's /tmp folder, for the purpose of mounting an encrypted disk at startup. Once the router has mounted the encrypted disk, it simply deletes the passphrase file from the /tmp folder, for security purposes.  
+This is a microcontroller running a program that monitors the console port 
+of the Asus RT-AC68U router, to know when the router is ready to begin accepting 
+Linux shell commands. For instance, we can automatically write a passphrase 
+directly into the router's RAM, very early in the boot process, by copying a 
+passphrase text file from the Arduino to the router's /tmp folder, for the 
+purpose of mounting an encrypted disk at startup. Once the router has mounted 
+the encrypted disk, it simply deletes the passphrase file from the /tmp folder, 
+for security purposes.  
 
-Shutdown button - Executes the Linux command "halt" to perform an immediate and orderly shutdown of the router.
+Shutdown button - Executes the Linux command "halt" to perform an immediate and 
+orderly shutdown of the router.
 
 Reboot button - Executes the Linux command "reboot" to reboot the router, for convenience.
 
-Compile and flash this sketch to an Arduino Pro Mini 3.3V and then follow the wiring diagram in the file: 
+Compile and flash this sketch to an Arduino Pro Mini 3.3V and then follow the wiring 
+diagram in the file: 
 Two-Factor_Pre-Boot_Authentication_for_Asus_Routers.pdf
 */
 
