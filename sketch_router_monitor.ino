@@ -1,7 +1,7 @@
 /*
 Arduino Pro Mini 3.3V console port monitor for the Asus RT-AC68U router.
 
-This is a microcontroller running a program that monitors the console port 
+This is the program, running on the microcontroller, that monitors the console port 
 of the Asus RT-AC68U router, to know when the router is ready to begin accepting 
 Linux shell commands. For instance, we can automatically write a passphrase 
 directly into the router's RAM, very early in the boot process, by copying a 
