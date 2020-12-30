@@ -6,7 +6,3 @@ An Arduino Pro Mini 3.3V is used to temporarily write a passphrase into the rout
 If your router and external USB storage device are ever taken from you, the passphrase is kept safe inside the Arduino microcontroller.  It can be quickly connected and disconnected from the router, or tethered on a long cable up to 40 meters away.  
 
 Perhaps my Arduino is hidden in the wall, or accesses another Arduino over a wireless link to fetch the passphrase? 
-
-### Donations may be sent to my Bitcoin address: 1i5Tpno73gJdr1XdmoxT6CjVFGef5KkZM
-Any amount is appreciated.  This helps me share new material and pay the bills.  Thank you.
-
